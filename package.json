@@ -1,13 +1,14 @@
 {
   "name": "@kospheus/modal-toast",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "modal toast",
-  "main": "dist/modal.js",
+  "main": "src/modal.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --copy-files --source-maps inline"
   },
   "repository": {
     "type": "git",
