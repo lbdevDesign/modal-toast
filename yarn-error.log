@@ -1,0 +1,67 @@
+Arguments: 
+  /Users/lb8/.nvm/versions/node/v18.17.1/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js add @kospheus/modal-toast
+
+PATH: 
+  /Users/lb8/.nvm/versions/node/v18.17.1/bin:/opt/homebrew/bin:/Users/lb8/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@kospheus%2fmodal-toast: Not found
+      at params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at self.callback (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "@kospheus/modal-toast",
+    "version": "1.0.0",
+    "description": "modal toast",
+    "main": "src/modal.js",
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kospheus/modal-toast.git"
+    },
+    "author": "kospheus",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kospheus/modal-toast/issues"
+    },
+    "homepage": "https://github.com/kospheus/modal-toast#readme",
+    "dependencies": {
+      "@babel/cli": "^7.23.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.23.2",
+      "@babel/preset-env": "^7.23.2",
+      "@babel/preset-react": "^7.22.15"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
