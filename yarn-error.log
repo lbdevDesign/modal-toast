@@ -29,9 +29,9 @@ Trace:
 npm manifest: 
   {
     "name": "@kospheus/modal-toast",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "modal toast",
-    "main": "rc/component/modal.js",
+    "main": "dist/index.esm.js",
     "publishConfig": {
       "registry": "https://npm.pkg.github.com/"
     },
