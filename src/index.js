@@ -1,3 +1,3 @@
-import ModalToast from './component/Modal';
+import ModalToast from './component/modal.js';
 
 export { ModalToast };
