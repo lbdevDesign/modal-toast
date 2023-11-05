@@ -1,8 +1,8 @@
 {
   "name": "@kospheus/modal-toast",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "modal toast",
-  "main": "dist/modal.js",
+  "main": "dist/index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },

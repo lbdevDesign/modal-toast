@@ -31,7 +31,7 @@ npm manifest:
     "name": "@kospheus/modal-toast",
     "version": "1.0.0",
     "description": "modal toast",
-    "main": "dist/modal.js",
+    "main": "dist/index.js",
     "publishConfig": {
       "registry": "https://npm.pkg.github.com/"
     },
