@@ -1,6 +1,6 @@
 {
   "name": "@kospheus/modal-toast",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "modal toast",
   "main": "dist/index.esm.js",
   "publishConfig": {
