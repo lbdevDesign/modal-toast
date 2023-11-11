@@ -64,6 +64,8 @@ Le composant ModalToast accepte une prop className que vous pouvez utiliser pour
 <ModalToast
   message="Votre message ici"
   isVisible={isToastVisible}
+  backgroundColor='#199260' //modifiez selon la couleur de modale que vous voulez
+  timerColor='#7fca00' //modifiez selon la couleur de timer que vous voulez
   onClose={() => setToastVisible(false)}
   className="my-custom-toast"
 />
