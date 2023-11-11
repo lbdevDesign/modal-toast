@@ -1,10 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import './modal.css'
 
-function ModalToast({ message, isVisible, onClose, duration = 5000 }) {
+function ModalToast({ message, isVisible, onClose, backgroundColor = '#199260', timerColor = '#7fca00', duration = 5000 }) {
     const [timeLeft, setTimeLeft] = useState(duration);
     const intervalDuration = 50; // 50ms pour mettre à jour le pourcentage
     const percentage = (timeLeft / duration) * 100;
+    const modalStyle = {
+        backgroundColor: backgroundColor,
+    };
+    const timerStyle = {
+        width: `${percentage}%`,
+        backgroundColor: timerColor,
+    };
+
 
     useEffect(() => {
         if (timeLeft <= 0) {
@@ -22,10 +30,10 @@ function ModalToast({ message, isVisible, onClose, duration = 5000 }) {
     if (!isVisible) return null;
 
     return (
-        <div className="modal-toast">
+        <div className="modal-toast" style={modalStyle}>
             <span className="modal-toast-message">{message}</span>
             <button className="modal-toast-close" onClick={onClose}>&times;</button>
-            <div className="modal-toast-timer" style={{ width: `${percentage}%` }}></div>
+            <div className="modal-toast-timer" style={timerStyle}></div>
         </div>
     );
 }
