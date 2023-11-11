@@ -2,7 +2,6 @@
     position: fixed;
     bottom: 32px;
     right: 32px;
-    background-color: #199260;
     color: #fff;
     padding: 12px 24px;
     border-radius: 4px;
@@ -33,6 +32,5 @@
     bottom: 0;
     right: 0;
     height: 4px;
-    background-color: #7fca00; /* Tomate */
     transition: width 0.05s linear; /* animation fluide */
 }
